@@ -57,3 +57,7 @@ the service and call the query with the typed structs.
 As it is generated code, it is easy to inspect to see what it is doing, and this shows it is actually doing very little!
 The generated code is simply a wrapper around Golang's SQL interface. All it is doing is adding guards to the query with
 types and mapping the returned values for us!
+
+### Links
+
+* [SQLC](https://docs.sqlc.dev/en/latest/)
